@@ -2,7 +2,6 @@
  * button *
  **********/
 
-.button,
 .button.flat:hover,
 GtkComboBox .button,
 .header-bar GtkComboBox .button,
@@ -40,13 +39,6 @@ GtkComboBox .button,
     background-image: linear-gradient(to bottom,
                             @button_hover_raised_bg_a,
                             @button_hover_raised_bg_b);
-}
-
-.button:hover {
-    background-color: transparent;
-    background-image: linear-gradient(to bottom,
-                            @button_hover_bg_a,
-                            @button_hover_bg_b);
 }
 
 .button:active,
